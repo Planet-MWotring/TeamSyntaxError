@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TQTSW+G95yR/BhQWbv2BOxYJJ31TJML7PkVfnpKOxmAlKIb6d1Ncd455ywAbX4Ok3MAbRkiRFk5llUPk1cG/yg==",
+  "dgSpecHash": "sb/NJ6Hy1mM6+M48/eNcPHIgZlzk21yHGl1XBYC8vCXhS7pLaeBcIwn63Y3T2l1osnNJBgk4rH9jKSmXHy0cxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aiAdmin\\repo\\TeamSyntaxSearch-1\\MyFirstCSharpProject\\MyFirstCSharpProject.csproj",
+  "projectFilePath": "C:\\Users\\aiAdmin\\source\\repos\\TeamSyntaxSearch\\TeamSyntaxError\\MyFirstCSharpProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.ai.textanalytics\\5.3.0\\azure.ai.textanalytics.5.3.0.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.core\\1.33.0\\azure.core.1.33.0.nupkg.sha512",
@@ -14,7 +14,11 @@
     "C:\\Users\\aiAdmin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\aiAdmin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512"
   ],
   "logs": [
     {
