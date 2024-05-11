@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Azure;
 using Azure.AI.TextAnalytics;
 
-class Program
+partial class Program
 {
     static async Task Main(string[] args)
     {
@@ -32,11 +32,11 @@ class Program
                 {
                     Console.Write("Please enter the correct information: ");
                     string? correction = Console.ReadLine();
-                    dossier[entity.Category] = correction;
+                    dossier[entity.Category.ToString()] = correction;
                 }
                 else
                 {
-                    dossier[entity.Category] = entity.Text;
+                    dossier[entity.Category.ToString()] = entity.Text;
                 }
             }
 
