@@ -8,7 +8,6 @@ C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\M
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\MyFirstCSharpProject.runtimeconfig.json
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\MyFirstCSharpProject.dll
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\MyFirstCSharpProject.pdb
-C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\Azure.AI.TextAnalytics.dll
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\Newtonsoft.Json.dll
@@ -20,3 +19,4 @@ C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\obj\Debug\net7.0\r
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\obj\Debug\net7.0\MyFirstCSharpProject.pdb
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\obj\Debug\net7.0\MyFirstCSharpProject.genruntimeconfig.cache
 C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\obj\Debug\net7.0\ref\MyFirstCSharpProject.dll
+C:\Users\aiAdmin\repo\TeamSyntaxSearch-1\MyFirstCSharpProject\bin\Debug\net7.0\Azure.AI.OpenAI.dll

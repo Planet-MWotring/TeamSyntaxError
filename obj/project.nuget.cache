@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xgGZsk42FQ+6At82gKFpFqSGQblYXWeTtiqFS8C2sDoe0ChlhPVkaqv+ZkENMO9iUjCqa5bKVHMNszlzxAKZFg==",
+  "dgSpecHash": "aLpGZBC1cJRCaW7/a117LSqy1IvP4PEJTr6AUm1iEi/241RC2FR5pkuwETGuEZ40pqLJ2di4q0UsXYRnXshQqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aiAdmin\\repo\\TeamSyntaxSearch-1\\MyFirstCSharpProject\\MyFirstCSharpProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.ai.textanalytics\\5.3.0\\azure.ai.textanalytics.5.3.0.nupkg.sha512",
-    "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.core\\1.33.0\\azure.core.1.33.0.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.5\\azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
+    "C:\\Users\\aiAdmin\\.nuget\\packages\\azure.core\\1.30.0\\azure.core.1.30.0.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\aiAdmin\\.nuget\\packages\\openai\\1.0.0\\openai.1.0.0.nupkg.sha512",

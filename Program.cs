@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Net.Http;
-using System.Text;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using Azure;
-using Azure.AI.TextAnalytics;
+using Azure.AI.OpenAI;
 
 partial class Program
 {
@@ -15,40 +15,24 @@ partial class Program
         {
             Console.WriteLine($"Analyzing: {sentence}");
 
-            var client = new TextAnalyticsClient(new Uri("https://mrw-ai-dev-42.openai.azure.com/"), new AzureKeyCredential("72fe1b0d6d8e4ff5ab04619acd50a8ec"));
+            // Initialize the OpenAI client
+            OpenAIClient openAIClient = new OpenAIClient(
+                new Uri("https://mrw-ai-dev-42.openai.azure.com/"),
+                new AzureKeyCredential(Environment.GetEnvironmentVariable("AZURE_API_KEY")));
 
-            var response = await client.RecognizeEntitiesAsync(sentence);
+            // Use the OpenAI service for text analysis
+            var completionResponse = await openAIClient.GetCompletionsAsync(
+                "mrw-ai-gpt-35-turbo", // or another model of your choice
+                new CompletionsOptions(){
+                    Prompts = { sentence },
+                } // Adjust maxTokens as needed
+            );
 
-            var dossier = new Dictionary<string, string>();
+            // Process the response
+            Console.WriteLine("Analysis result:");
+            Console.WriteLine(completionResponse.Value.Choices[0].Text);
 
-            Console.WriteLine("Recognized entities:");
-            foreach (var entity in response.Value)
-            {
-                Console.WriteLine($"Text: {entity.Text}, Category: {entity.Category}, SubCategory: {entity.SubCategory}");
-
-                Console.Write("Is this information accurate? (yes/no) ");
-                string? confirmation = Console.ReadLine();
-                if (confirmation?.ToLower() == "no")
-                {
-                    Console.Write("Please enter the correct information: ");
-                    string? correction = Console.ReadLine();
-                    dossier[entity.Category.ToString()] = correction;
-                }
-                else
-                {
-                    dossier[entity.Category.ToString()] = entity.Text;
-                }
-            }
-
-            Console.WriteLine("Dossier:");
-            foreach (var entry in dossier)
-            {
-                Console.WriteLine($"{entry.Key}: {entry.Value}");
-            }
-        }
-        else
-        {
-            Console.WriteLine("No sentence provided.");
+            // Further processing based on the analysis result...
         }
     }
 }

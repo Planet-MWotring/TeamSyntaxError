@@ -2,25 +2,24 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Azure.AI.TextAnalytics/5.3.0": {
+      "Azure.AI.OpenAI/1.0.0-beta.5": {
         "type": "package",
         "dependencies": {
-          "Azure.Core": "1.33.0",
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Azure.Core": "1.30.0",
           "System.Text.Json": "4.7.2"
         },
         "compile": {
-          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
             "related": ".xml"
           }
         }
       },
-      "Azure.Core/1.33.0": {
+      "Azure.Core/1.30.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
@@ -156,32 +155,32 @@
     }
   },
   "libraries": {
-    "Azure.AI.TextAnalytics/5.3.0": {
-      "sha512": "QFGaADxfpEcvUPGqIo2CaXUiR00JN1sU14cgmo4wLgizP7v5WGJT9DYqFrzOBPO/tDYaup9mE4secRahe5xVcw==",
+    "Azure.AI.OpenAI/1.0.0-beta.5": {
+      "sha512": "wlCf4D6iutnXQXVgNMT9SuO6gFH5e6JHb3yCK4ZF6lL+VtTrTspluqZfySE/C3KK5j2Cqdu6PbsUnZfsu/PPOQ==",
       "type": "package",
-      "path": "azure.ai.textanalytics/5.3.0",
+      "path": "azure.ai.openai/1.0.0-beta.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.ai.textanalytics.5.3.0.nupkg.sha512",
-        "azure.ai.textanalytics.nuspec",
+        "azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
+        "azure.ai.openai.nuspec",
         "azureicon.png",
-        "lib/netstandard2.0/Azure.AI.TextAnalytics.dll",
-        "lib/netstandard2.0/Azure.AI.TextAnalytics.xml"
+        "lib/netstandard2.0/Azure.AI.OpenAI.dll",
+        "lib/netstandard2.0/Azure.AI.OpenAI.xml"
       ]
     },
-    "Azure.Core/1.33.0": {
-      "sha512": "p06/5ueyCwKe09zqz7bPR6vbWRGrDy6Ot4aqjrjnowhFlXUBoljUdH+abDZP2vUuSZrOSstF4h860hBHWh8uHg==",
+    "Azure.Core/1.30.0": {
+      "sha512": "w5Z2uTASP+EsnG4kqQsYtKTf41x1czIu1CgPuDQdHILxCk+IP2DiXazUcfTqr6kebi7S6ah927mrQx1nT/4bnw==",
       "type": "package",
-      "path": "azure.core/1.33.0",
+      "path": "azure.core/1.30.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.33.0.nupkg.sha512",
+        "azure.core.1.30.0.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
@@ -440,7 +439,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Azure.AI.TextAnalytics >= 5.3.0",
+      "Azure.AI.OpenAI >= 1.0.0-beta.5",
       "OpenAI >= 0.10.0",
       "System.Text.Json >= 5.0.2"
     ]
@@ -482,9 +481,9 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "Azure.AI.TextAnalytics": {
+          "Azure.AI.OpenAI": {
             "target": "Package",
-            "version": "[5.3.0, )"
+            "version": "[1.0.0-beta.5, )"
           },
           "OpenAI": {
             "target": "Package",

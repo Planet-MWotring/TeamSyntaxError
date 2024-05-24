@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "MyFirstCSharpProject/1.0.0": {
         "dependencies": {
-          "Azure.AI.TextAnalytics": "5.3.0",
+          "Azure.AI.OpenAI": "1.0.0-beta.5",
           "OpenAI": "1.0.0",
           "System.Text.Json": "5.0.2"
         },
@@ -16,20 +16,19 @@
           "MyFirstCSharpProject.dll": {}
         }
       },
-      "Azure.AI.TextAnalytics/5.3.0": {
+      "Azure.AI.OpenAI/1.0.0-beta.5": {
         "dependencies": {
-          "Azure.Core": "1.33.0",
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Azure.Core": "1.30.0",
           "System.Text.Json": "5.0.2"
         },
         "runtime": {
-          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
-            "assemblyVersion": "5.3.0.0",
-            "fileVersion": "5.300.23.31903"
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.23.17203"
           }
         }
       },
-      "Azure.Core/1.33.0": {
+      "Azure.Core/1.30.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "System.Diagnostics.DiagnosticSource": "4.6.0",
@@ -41,8 +40,8 @@
         },
         "runtime": {
           "lib/net6.0/Azure.Core.dll": {
-            "assemblyVersion": "1.33.0.0",
-            "fileVersion": "1.3300.23.31609"
+            "assemblyVersion": "1.30.0.0",
+            "fileVersion": "1.3000.23.16003"
           }
         }
       },
@@ -99,19 +98,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Azure.AI.TextAnalytics/5.3.0": {
+    "Azure.AI.OpenAI/1.0.0-beta.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QFGaADxfpEcvUPGqIo2CaXUiR00JN1sU14cgmo4wLgizP7v5WGJT9DYqFrzOBPO/tDYaup9mE4secRahe5xVcw==",
-      "path": "azure.ai.textanalytics/5.3.0",
-      "hashPath": "azure.ai.textanalytics.5.3.0.nupkg.sha512"
+      "sha512": "sha512-wlCf4D6iutnXQXVgNMT9SuO6gFH5e6JHb3yCK4ZF6lL+VtTrTspluqZfySE/C3KK5j2Cqdu6PbsUnZfsu/PPOQ==",
+      "path": "azure.ai.openai/1.0.0-beta.5",
+      "hashPath": "azure.ai.openai.1.0.0-beta.5.nupkg.sha512"
     },
-    "Azure.Core/1.33.0": {
+    "Azure.Core/1.30.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-p06/5ueyCwKe09zqz7bPR6vbWRGrDy6Ot4aqjrjnowhFlXUBoljUdH+abDZP2vUuSZrOSstF4h860hBHWh8uHg==",
-      "path": "azure.core/1.33.0",
-      "hashPath": "azure.core.1.33.0.nupkg.sha512"
+      "sha512": "sha512-w5Z2uTASP+EsnG4kqQsYtKTf41x1czIu1CgPuDQdHILxCk+IP2DiXazUcfTqr6kebi7S6ah927mrQx1nT/4bnw==",
+      "path": "azure.core/1.30.0",
+      "hashPath": "azure.core.1.30.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
